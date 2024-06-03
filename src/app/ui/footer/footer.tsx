@@ -1,4 +1,5 @@
 import FooterLinks from '@/app/ui/footer/footer-links';
+import Link from 'next/link';
 
 export default function Footer() {
     return (
