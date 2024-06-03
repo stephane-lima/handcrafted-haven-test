@@ -10,8 +10,8 @@ export default function Footer() {
                 
                 <div>
                     {/* <FooterLinks /> */}
-                    <Link>Have questions?</Link>
-                    <Link>Contact Us</Link>
+                    <Link href="/handcrafted-haven">Have questions?</Link>
+                    <Link href="/handcrafted-haven">Contact Us</Link>
                 </div>
             </div>
             <div>
