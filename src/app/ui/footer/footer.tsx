@@ -21,7 +21,7 @@ export default function Footer() {
                         <Image className="rounded shadow-lg"
                             width={160}
                             height={160}
-                            src=""
+                            src="/facebook-logo.jpg"
                             alt="Facebook Logo"
                         />Facebook
                     </Link>
