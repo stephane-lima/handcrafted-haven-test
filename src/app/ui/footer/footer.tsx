@@ -25,19 +25,19 @@ export default function Footer() {
                             alt="Facebook Logo"
                         />Facebook
                     </Link>
-                    <Link href="www.instagram.com">
+                    <Link href="https://www.instagram.com">
                         <Image className="rounded shadow-lg"
                             width={160}
                             height={160}
-                            src=""
+                            src="/facebook-logo.jpg"
                             alt="Instagram Logo"
                         />Instagram
                     </Link>
-                    <Link href="www.pinterest.com">
+                    <Link href="https://www.pinterest.com">
                         <Image className="rounded shadow-lg"
                             width={160}
                             height={160}
-                            src=""
+                            src="/facebook-logo.jpg"
                             alt="Pinterest Logo"
                         />Pinterest
                     </Link>
