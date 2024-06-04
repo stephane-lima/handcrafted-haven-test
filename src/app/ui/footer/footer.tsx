@@ -17,7 +17,7 @@ export default function Footer() {
             </div>
             <div>
                 <div>
-                    <Link href="www.facebook.com">
+                    <Link href="https://www.facebook.com">
                         <Image className="rounded shadow-lg"
                             width={160}
                             height={160}
