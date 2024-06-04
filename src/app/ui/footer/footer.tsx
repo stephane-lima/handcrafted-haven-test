@@ -19,24 +19,24 @@ export default function Footer() {
                 <div className="inline">
                     <Link href="https://www.facebook.com">
                         <Image className=""
-                            width={30}
-                            height={30}
+                            width={40}
+                            height={40}
                             src="/facebook-logo.jpg"
                             alt="Facebook Logo"
                         />Facebook
                     </Link>
                     <Link href="https://www.instagram.com">
                         <Image className=""
-                            width={30}
-                            height={30}
+                            width={40}
+                            height={40}
                             src="/facebook-logo.jpg"
                             alt="Instagram Logo"
                         />Instagram
                     </Link>
                     <Link href="https://www.pinterest.com">
                         <Image className=""
-                            width={30}
-                            height={30}
+                            width={40}
+                            height={40}
                             src="/facebook-logo.jpg"
                             alt="Pinterest Logo"
                         />Pinterest
