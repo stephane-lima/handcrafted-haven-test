@@ -16,9 +16,9 @@ export default function Footer() {
                 </div>
             </div>
             <div>
-                <div>
+                <div className="inline">
                     <Link href="https://www.facebook.com">
-                        <Image className="rounded shadow-lg"
+                        <Image className=""
                             width={160}
                             height={160}
                             src="/facebook-logo.jpg"
@@ -26,7 +26,7 @@ export default function Footer() {
                         />Facebook
                     </Link>
                     <Link href="https://www.instagram.com">
-                        <Image className="rounded shadow-lg"
+                        <Image className=""
                             width={160}
                             height={160}
                             src="/facebook-logo.jpg"
@@ -34,7 +34,7 @@ export default function Footer() {
                         />Instagram
                     </Link>
                     <Link href="https://www.pinterest.com">
-                        <Image className="rounded shadow-lg"
+                        <Image className=""
                             width={160}
                             height={160}
                             src="/facebook-logo.jpg"
