@@ -23,23 +23,23 @@ export default function Footer() {
                             height={40}
                             src="/facebook-logo.jpg"
                             alt="Facebook Logo"
-                        />Facebook
+                        />
                     </Link>
                     <Link href="https://www.instagram.com">
                         <Image className=""
                             width={40}
                             height={40}
-                            src="/facebook-logo.jpg"
+                            src="/instagram-logo.jpg"
                             alt="Instagram Logo"
-                        />Instagram
+                        />
                     </Link>
                     <Link href="https://www.pinterest.com">
                         <Image className=""
                             width={40}
                             height={40}
-                            src="/facebook-logo.jpg"
+                            src="/pinterest-logo.png"
                             alt="Pinterest Logo"
-                        />Pinterest
+                        />
                     </Link>
                 </div>
                 <p className="text-right text-lg py-3">2024 Handcrafted Haven Inc.</p>
