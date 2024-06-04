@@ -12,13 +12,13 @@ export default function Footer() {
                 <div className="text-right text-lg my-5 pr-3">
                     {/* <FooterLinks /> */}
                     <Link href="/handcrafted-haven">Have questions?</Link>
-                    <Link className="ml-3 bg-golden p-2" href="/handcrafted-haven">Contact Us</Link>
+                    <Link className="ml-4 bg-golden p-2" href="/handcrafted-haven">Contact Us</Link>
                 </div>
             </div>
-            <div>
-                <div className="flex justify-end pt-4 pr-4">
+            <div className="pt-4 pr-4">
+                <div className="flex justify-end">
                     <Link href="https://www.facebook.com">
-                        <Image className=""
+                        <Image
                             width={40}
                             height={40}
                             src="/facebook-logo.jpg"
@@ -26,7 +26,7 @@ export default function Footer() {
                         />
                     </Link>
                     <Link href="https://www.instagram.com">
-                        <Image className=""
+                        <Image
                             width={40}
                             height={40}
                             src="/instagram-logo.jpg"
@@ -34,7 +34,7 @@ export default function Footer() {
                         />
                     </Link>
                     <Link href="https://www.pinterest.com">
-                        <Image className=""
+                        <Image
                             width={40}
                             height={40}
                             src="/pinterest-logo.png"
