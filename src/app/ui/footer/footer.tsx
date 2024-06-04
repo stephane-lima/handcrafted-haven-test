@@ -1,5 +1,6 @@
 import FooterLinks from '@/app/ui/footer/footer-links';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
     return (
@@ -15,6 +16,32 @@ export default function Footer() {
                 </div>
             </div>
             <div>
+                <div>
+                    <Link href="www.facebook.com">
+                        <Image className="rounded shadow-lg"
+                            width={160}
+                            height={160}
+                            src=""
+                            alt="Facebook Logo"
+                        />Facebook
+                    </Link>
+                    <Link href="www.instagram.com">
+                        <Image className="rounded shadow-lg"
+                            width={160}
+                            height={160}
+                            src=""
+                            alt="Instagram Logo"
+                        />Instagram
+                    </Link>
+                    <Link href="www.pinterest.com">
+                        <Image className="rounded shadow-lg"
+                            width={160}
+                            height={160}
+                            src=""
+                            alt="Pinterest Logo"
+                        />Pinterest
+                    </Link>
+                </div>
                 <p className="text-right text-lg py-3">2024 Handcrafted Haven Inc.</p>
             </div>
         </footer>
