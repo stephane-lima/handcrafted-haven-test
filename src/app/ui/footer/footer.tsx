@@ -13,7 +13,7 @@ export default function Footer() {
                 
                 <div className="text-right text-lg my-5 pr-3">
                     {/* <FooterLinks /> */}
-                    <Link href="/handcrafted-haven">Have questions?</Link>
+                    <Link className="underline" href="/handcrafted-haven">Have questions?</Link>
                     <Link className="ml-4 bg-golden p-2" href="/handcrafted-haven">Contact Us</Link>
                 </div>
             </div>
