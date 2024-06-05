@@ -2,6 +2,8 @@ import FooterLinks from '@/app/ui/footer/footer-links';
 import Link from 'next/link';
 import Image from 'next/image';
 
+let date: Date = new Date();
+
 export default function Footer() {
     return (
         <footer>
@@ -42,7 +44,7 @@ export default function Footer() {
                         />
                     </Link>
                 </div>
-                <p className="text-right text-lg py-3">2024 Handcrafted Haven Inc.</p>
+                <p className="text-right text-lg py-3">&copy; {`${date.getFullYear()}`} Handcrafted Haven Inc.</p>
             </div>
         </footer>
     )
