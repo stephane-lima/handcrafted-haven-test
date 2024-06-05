@@ -25,7 +25,7 @@ export default function Footer() {
                             alt="Facebook Logo"
                         />
                     </Link>
-                    <Link href="https://www.instagram.com">
+                    <Link className="ml-4" href="https://www.instagram.com">
                         <Image
                             width={40}
                             height={40}
@@ -33,7 +33,7 @@ export default function Footer() {
                             alt="Instagram Logo"
                         />
                     </Link>
-                    <Link href="https://www.pinterest.com">
+                    <Link className="ml-4" href="https://www.pinterest.com">
                         <Image
                             width={40}
                             height={40}
